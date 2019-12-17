@@ -1,8 +1,66 @@
 # Table component with sorting and pagination for Angular
 It is a forked version of [ng-datatable](https://github.com/PascalHonegger/ng-datatable) updated to Angular 8, using Feather icons instead of Glyphicon for showing sorting arrows.
 
-## 
+## IMPORTANT
+I am currently using custom CSS, to transform the fe-code icon 90 degrees as the default sort icon, and bolded + black chevron up & down icons accordingly.
+When feather releases their sort icons (should be soon, going by the related issues), will update the package to use those instead of the current patchwork.
 
+#### Add below to your CSS theme. 
+```
+.fe-bold {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Feather' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+```
+```
+.fe-bold-transform90 {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Feather' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Transform 90 degrees, specifically for fe-code for sorting */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+```
+```
+.fe-bold-black {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Feather' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: black;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+```
 ## Installation
 
 ```
