@@ -42,6 +42,7 @@ When feather releases their sort icons (should be soon, going by the related iss
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
+  display: inline-block;
 }
 ```
 ```
