@@ -7,7 +7,7 @@ import {DataTable, SortEvent} from "./DataTable";
         <a style="cursor: pointer" (click)="sort()" class="text-nowrap">
             <ng-content></ng-content>
             <span *ngIf="isSortedByMeAsc" class="fe fe-chevron-up" aria-hidden="true"></span>
-            <span *ngIf="isSortedByMeDesc" class="fe fe-chevrown-down" aria-hidden="true"></span>
+            <span *ngIf="isSortedByMeDesc" class="fe fe-chevron-down" aria-hidden="true"></span>
         </a>`
 })
 export class DefaultSorter implements OnInit {
