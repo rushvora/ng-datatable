@@ -1,6 +1,6 @@
 {
   "name": "@rushvora/ng-datatable",
-  "version": "8.0.1",
+  "version": "8.0.2",
   "description": "DataTable component for Angular framework",
   "main": "index.js",
   "scripts": {
