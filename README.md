@@ -1,14 +1,12 @@
 # Table component with sorting and pagination for Angular
-It is a forked version of [ng-datatable](https://github.com/cmglez10/ng-datatable) updated to Angular 8.
-
-[![npm version](https://badge.fury.io/js/%40pascalhonegger%2Fng-datatable.svg)](https://badge.fury.io/js/%40pascalhonegger%2Fng-datatable)
+It is a forked version of [ng-datatable](https://github.com/PascalHonegger/ng-datatable) updated to Angular 8, using Feather icons instead of Glyphicon for showing sorting arrows.
 
 ## 
 
 ## Installation
 
 ```
-npm i @pascalhonegger/ng-datatable --save
+npm i @rushvora/ng-datatable --save
 ```
 
 ## Usage example
@@ -17,7 +15,7 @@ AppModule.ts
 ```typescript
 import {NgModule} from "@angular/core";
 ...
-import {DataTableModule} from "@pascalhonegger/ng-datatable";
+import {DataTableModule} from "@rushvora/ng-datatable";
 
 @NgModule({
     imports: [

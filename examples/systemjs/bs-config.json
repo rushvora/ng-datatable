@@ -2,7 +2,7 @@
   "server": {
     "baseDir": ".",
     "routes": {
-      "/node_modules/@pascalhonegger/ng-datatable": "../../."
+      "/node_modules/@rushvora/ng-datatable": "../../."
     }
   }
 }

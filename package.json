@@ -1,6 +1,6 @@
 {
-  "name": "@pascalhonegger/ng-datatable",
-  "version": "8.0.0",
+  "name": "@rushvora/ng-datatable",
+  "version": "8.0.1",
   "description": "DataTable component for Angular framework",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PascalHonegger/ng-datatable.git"
+    "url": "git+https://github.com/rushvora/ng-datatable.git"
   },
   "keywords": [
     "angular",
@@ -25,14 +25,15 @@
     "table",
     "pagination",
     "sort",
-    "sorting"
+    "sorting",
+    "feather"
   ],
-  "author": "pascal.honegger@bluewin.ch",
+  "author": "rushvora@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PascalHonegger/ng-datatable/issues"
+    "url": "https://github.com/rushvora/ng-datatable/issues"
   },
-  "homepage": "https://github.com/cmglez10/ng-datatable#readme",
+  "homepage": "https://github.com/rushvora/ng-datatable#readme",
   "devDependencies": {
     "@angular/common": "^8.0.0",
     "@angular/compiler": "^8.0.0",

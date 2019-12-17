@@ -1,5 +1,11 @@
 # Changelog
 
+## 8.0.1 (2019-12-17)
+
+Changes:
+    
+    - Using Feather icons instead of Glyphicons to make sorting arrows work in Bootstrap 4.
+
 ## 0.7.3 (2018-10-04)
 
 Changes:
