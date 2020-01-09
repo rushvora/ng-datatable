@@ -4,7 +4,7 @@ import {DataTable, SortEvent} from "./DataTable";
 @Component({
     selector: "mfDefaultSorter",
     template: `
-        <a style="cursor: pointer" (click)="sort()" class="text-nowrap">
+        <a style="cursor: pointer" (click)="sort()" class="text-nowrap" [ngClass]="{'datatable-sort-active': isSortedByMeAsc || isSortedByMeDesc}">
             <ng-content></ng-content>
             <span *ngIf="!isSortedByMeAsc && !isSortedByMeDesc" class="fe-bold-transform90 fe-code" aria-hidden="true"></span>
             <span *ngIf="isSortedByMeAsc" class="fe-bold-black fe-chevron-up" aria-hidden="true"></span>
